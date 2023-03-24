@@ -2,11 +2,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-//Rukiye Tura 210316049
+
 /**
  *
  * @author ASUS
  */
+
+//A simple hotel booking system that calculates the price one need to pay considering how many days they plan to stay,
+//how many people they are staying with, if they have children and if they have VIP membership.
 import java.util.Scanner;
 public class HotelBookingS210316049 {
     
@@ -144,10 +147,7 @@ public class HotelBookingS210316049 {
    if(decision == 1){
        System.out.println("Your total price would be " +price);
    }
-   
-   
-       
-   //I couldn't figure out how to show how many rooms have been booked.
+
    
     } //closes if guests > 1 
 }
